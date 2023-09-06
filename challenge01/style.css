@@ -246,12 +246,12 @@ h1.heading-hero {
     line-height: 54px;
 }
 
-p.detail-hero {
+p.detail-heading {
     margin-top: 20px;
     font-weight: 300;
     font-size: var(--fs-body-large);
     line-height: 20px;
-    width: 240px;
+    width: 280px;
     margin-bottom: 20px;
 }
 
@@ -261,14 +261,53 @@ a.btn-hero {
     margin-bottom: 30px;
 }
 
-.image-section {
+.imagehero-section {
     display: flex;
     justify-content: right;
     text-align: right;
     align-items: right;
 }
 
-.image-section img {
+.imagehero-section img {
     width: 280px;
     right: 0;
+}
+
+
+/* SERVICE */
+
+.service {
+    margin-top: 50px;   
+}
+
+.imageservice-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imageservice-section img {
+    width: 250px;
+    margin-right: 30px;
+}
+
+h1.heading-service {
+    min-width: 250px;
+    font-weight: 700;
+    font-size: var(--fs-heading-large);
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+li.list-detail {
+    margin-left: -5px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.list-detail p {
+    font-size: var(--fs-body-large);
 }
