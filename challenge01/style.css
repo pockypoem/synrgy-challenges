@@ -327,17 +327,19 @@ p.detail-whyus {
 }
 
 .whyus-detail {
-    justify-content: center;
-    align-items: center;
+    display: flex;
     margin-bottom: 50px;
+    margin-left: 5px;
 }
 
+
 .card-whyus {
-    gap: 15px;
+    gap: 10px;
 }
 
 .card-item-whyus {
-    margin-right: -25px;
+    margin-right: 5px;
+    margin-bottom: 15px;
 }
 
 .whyus-detail .bold-card-title {
@@ -418,7 +420,7 @@ p.person-name {
     margin-bottom: 30px;
     border-radius: 13px;
     color: var(--neutral01);
-    align-text: center;
+    text-align: center;
 }
 
 .started-content h1.started-title {
@@ -439,4 +441,63 @@ h3.detail-started-content {
 
 button.button-action {
     margin-top: 30px;
+}
+
+
+
+/* FAQ SECTION */
+.heading-faq {
+    font-weight: 700;
+    font-size: var(--fs-heading-large);
+    line-height: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+p.faq-text {
+    margin-top: 15px;
+    font-size: var(--fs-body-large);
+    line-height: 20px;
+    text-align: center;
+}
+
+button.accordion-button {
+    font-size: var(--fs-body-large);
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.accordion-body {
+    font-size: var(--fs-body-large);
+}
+
+.faq-section {
+    display: flex;
+}
+
+.faq-details {
+    flex-direction: row;
+}
+
+
+footer p {
+    font-size: var(--fs-body-large);
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+h5.navigasi-footer {
+    font-weight: 500;
+    font-size: var(--fs-body-large);
+}
+
+.content-sosmed {
+    margin-left: -5px;
+}
+
+.grouping-socialmedia {
+    margin-bottom: 20px;
 }
