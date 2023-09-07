@@ -313,3 +313,85 @@ li.list-detail {
 .list-detail p {
     font-size: var(--fs-body-large);
 }
+
+
+/* WHY US SECTION */
+
+.title-whyus {
+    text-align: center;
+}
+
+p.detail-whyus {
+    text-align: center;
+    margin-left: 25px;
+}
+
+.whyus-detail {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card-whyus {
+    gap: 15px;
+}
+
+.card-item-whyus {
+    margin-right: -25px;
+}
+
+.whyus-detail .bold-card-title {
+    font-weight: 700;
+}
+
+p.card-detail-list {
+    margin-top: 15px;
+    font-size: var(--fs-body-large);
+    line-height: 20px;
+}
+
+
+
+/* TESTIMONIAL SECTION*/
+
+h3.detail-testimonial {
+    margin-top: 15px;
+    font-size: var(--fs-body-large);
+    line-height: 20px;
+}
+
+
+
+
+
+
+/* GETTING STARTED */
+.started-content {
+    margin-top: 10px;
+    background-color: var(--darkblue04);
+    padding: 50px 50px;
+    margin-bottom: 30px;
+    border-radius: 13px;
+    color: var(--neutral01);
+    align-text: center;
+}
+
+.started-content h1.started-title {
+    padding-left: 12px; 
+    padding-right: 12px; 
+    font-weight: 700;
+    font-size: var(--fs-heading-large);
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+h3.detail-started-content {
+    margin-top: 25px;
+    font-size: var(--fs-body-large);
+    line-height: 20px;
+    font-weight: 300;
+}
+
+button.button-action {
+    margin-top: 30px;
+}
