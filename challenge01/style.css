@@ -360,6 +360,51 @@ h3.detail-testimonial {
     line-height: 20px;
 }
 
+.testimonial-contents {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+img.profile-testi {
+    justify-content: center;
+    align-items: center
+}
+
+.text-testimonial {
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+p.card-detail-testi {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: var(--fs-body-large);
+    line-height: 20px;
+}
+
+p.person-name {
+    padding: 10px 20px;
+    margin-top: -20px;
+    font-size: var(--fs-body-large);
+    line-height: 20px;
+}
+
+
+.carousel-item .body-testi {
+    background-color: #F1F3FF;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: green;
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+}
 
 
 

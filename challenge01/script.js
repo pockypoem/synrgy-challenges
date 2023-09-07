@@ -22,3 +22,24 @@ for (let i = 0; i < navElemArr.length; i++) {
     })
 
 }
+
+
+// Carousel
+// Inisialisasi Carousel
+// const recipeCarousel = document.getElementById('recipeCarousel');
+// const carousel = new bootstrap.Carousel(recipeCarousel, {
+//     interval: 10000
+// });
+
+// // Iterasi setiap carousel item
+// const carouselItems = document.querySelectorAll('.carousel .carousel-item');
+// const minPerSlide = 3;
+
+// carouselItems.forEach(function (carouselItem) {
+//     let next = carouselItem.nextElementSibling || carouselItem.parentElement.firstElementChild;
+
+//     for (let i = 0; i < minPerSlide; i++) {
+//         carouselItem.appendChild(next.firstElementChild.cloneNode(true));
+//         next = next.nextElementSibling || carouselItem.parentElement.firstElementChild;
+//     }
+// });
