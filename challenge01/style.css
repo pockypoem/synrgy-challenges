@@ -73,6 +73,10 @@
     font-family: var(--font-helvetica);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a { text-decoration: none; }
 
 li { list-style: none; }
