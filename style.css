@@ -279,6 +279,10 @@ button.btn-hero {
     right: 0;
 }
 
+.image-desktop-style {
+    display: none;
+}
+
 
 /* SERVICE */
 
@@ -377,7 +381,7 @@ h3.detail-testimonial {
 
 img.profile-testi {
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .text-testimonial {
@@ -401,20 +405,17 @@ p.person-name {
 }
 
 
-.carousel-item .body-testi {
+.testimonial-contents .body-testi {
     background-color: #F1F3FF;
 }
 
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: green;
-    padding: 20px 20px;
-    border-radius: 20px;
-    width: 30px;
-    height: 30px;
-    font-size: 24px;
+.owl-nav {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 10px;
 }
+
 
 
 
@@ -491,6 +492,8 @@ button.accordion-button {
 }
 
 
+/* FOOTER */
+
 footer p {
     font-size: var(--fs-body-large);
     line-height: 25px;
@@ -511,6 +514,14 @@ h5.navigasi-footer {
 }
 
 
+.image-wrap-hero {
+    min-width: 300px;
+}
+
+img.imagehero-style {
+    min-width: 320px !important;
+}
+
 
 
 /* RESPONSIVE */
@@ -524,9 +535,6 @@ h5.navigasi-footer {
         min-width: 315px;
     }
 
-    .imagehero-style {
-        min-width: 320px;
-    }
 
 
     /* SERVICE SECTION */
@@ -732,6 +740,7 @@ h5.navigasi-footer {
 
 
 
+
 /* responsive larger than 1024px */
 @media (min-width: 1024px) {
 
@@ -762,6 +771,7 @@ h5.navigasi-footer {
         margin-bottom: 0;
         display: flex;
         justify-content: flex-end;
+        margin-left: 270px;
     }
 
     .header-actions {
@@ -769,6 +779,7 @@ h5.navigasi-footer {
         justify-content: center;
         align-items: center;
     }
+    
 
     .overlay { display: none; }
 
@@ -861,7 +872,11 @@ h5.navigasi-footer {
 
     /* TESTIMONIAL SECTION */
     p.card-detail-testi {
-        min-width: 550px;
+        min-width: 360px;
+    }
+
+    .body-testi .row .col-md-3 {
+        margin-left: -40px;
     }
 
 
@@ -898,21 +913,34 @@ h5.navigasi-footer {
 
     .container { max-width: 1200px; }
 
+    /* HEADER */
+    .navigasi-list {
+        margin-left: 450px;
+    }
+
     
     /* HERO SECTION */
 
     .hero .left-hero-section {
         margin-top: 15px;
         max-width: 700px !important;
-        margin-left: -40px;
+        margin-left: 65px;
     }
 
     h1.heading-hero {
         min-width: 700px !important;
     }
 
-    img.imghero-style {
-        min-width: 600px !important;
+    .imagehero-section img{
+        min-width: 200px;
+    }
+
+    img.imagehero-style {
+        display: none;
+    }
+
+    .image-desktop-style {
+        display: block;
     }
 
 
@@ -957,6 +985,19 @@ h5.navigasi-footer {
         height: 12.5rem !important;
     }
 
+
+    /* TESTIMONIAL SECTION */
+    p.card-detail-testi {
+        min-width: 300px;
+    }
+
+    .body-testi .row .col-md-3 {
+        margin-left: -40px;
+    }
+
+    .body-testi .row .text-testimonial {
+        margin-top: -10px;
+    }
 
     /* FAQ SECTION */
 
