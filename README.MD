@@ -1,3 +1,1 @@
-You can see the Result of Challenge02 in this [Website](https://synrgy-challenge02-bcr.netlify.app/) <br>
-
-*NB: Still in fixing progress
+You can see the Result of Challenge02 in this [My Website for Challenge02](https://synrgy-challenge02-bcr.netlify.app/) <br>
