@@ -915,7 +915,13 @@ img.imagehero-style {
 
     /* HEADER */
     .navigasi-list {
-        margin-left: 450px;
+        margin-left: 300px;
+        margin-right: -200px;
+    }
+
+    .navigasi-list li a:nth-child(1){
+        margin-left: -30px;
+        width: 140px;
     }
 
     
@@ -1011,4 +1017,18 @@ img.imagehero-style {
 
 
 
+}
+
+
+@media (min-width: 1400px) {
+    /* HEADER */
+    .navigasi-list {
+        margin-left: 550px;
+        margin-right: -200px;
+    }
+
+    .navigasi-list li a:nth-child(1){
+        margin-left: -30px;
+        width: 140px;
+    }
 }
