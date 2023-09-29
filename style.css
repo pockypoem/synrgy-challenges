@@ -283,6 +283,10 @@ button.btn-hero {
     display: none;
 }
 
+.image-desktop-style-1440 {
+    display: none;
+}
+
 
 /* SERVICE */
 
@@ -1031,4 +1035,16 @@ img.imagehero-style {
         margin-left: -30px;
         width: 140px;
     }
+
+    /* HERO SECTION */
+
+    .image-desktop-style {
+        display: none;
+    }
+
+    .image-desktop-style-1440 {
+        display: block;
+    }
+
+    
 }
