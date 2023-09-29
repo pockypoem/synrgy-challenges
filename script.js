@@ -22,3 +22,22 @@ for (let i = 0; i < navElemArr.length; i++) {
     })
 
 }
+
+
+// Change from "container" to "container-fluid" in min-width 1200px
+
+const heroSectionElement = document.getElementById('hero-section');
+
+function updateContainerClass() {
+  if (window.innerWidth >= 1150) {
+    heroSectionElement.classList.add('container-fluid');
+    heroSectionElement.classList.remove('container');
+  } else {
+    heroSectionElement.classList.remove('container-fluid');
+    heroSectionElement.classList.add('container');
+  }
+}
+
+updateContainerClass();
+
+window.addEventListener('resize', updateContainerClass);

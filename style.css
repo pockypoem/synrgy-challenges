@@ -642,7 +642,11 @@ img.imagehero-style {
     }
 
     img.imagehero-style {
-        min-width: 500px;
+        display: none;
+    }
+
+    .image-desktop-style {
+        display: block;
     }
 
 
@@ -943,14 +947,6 @@ img.imagehero-style {
 
     .imagehero-section img{
         min-width: 200px;
-    }
-
-    img.imagehero-style {
-        display: none;
-    }
-
-    .image-desktop-style {
-        display: block;
     }
 
 
