@@ -8,4 +8,4 @@
     * Exercises
         * [Pre Test](https://github.com/pockypoem/synrgy-challenges/tree/main/chapter03/quiz)
         * [Latihan Soal](https://github.com/pockypoem/synrgy-challenges/tree/main/chapter03/latihanSoal)
-    * [Challenge Chapter 03](https://github.com/pockypoem/synrgy-challenges/tree/challenge03)
+    * [Challenge Chapter 03](https://jeremyas-challenge03-binar.netlify.app/)
