@@ -1,5 +1,7 @@
 # Javascript: Array Challenge
 
+You can see the result of Challenge03 in [this website](https://jeremyas-challenge03-binar.netlify.app/) <br>
+
 Tugasmu disini adalah memodifikasi file-file berikut:
 
 - [`scripts/filterCarByAvailability.js`](./scripts/filterCarByAvailability.js)
