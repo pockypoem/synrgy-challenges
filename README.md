@@ -1,11 +1,12 @@
-# SYNRGY BATCH 6 CHALLENGES
+Update
+======
 
-* [Chapter01](https://synrgy-challenge01-bcr.netlify.app/)
-* Chapter 02
-    * [Fun Challenge Frontend Mentor](https://github.com/pockypoem/synrgy-challenges/tree/main/funchallenge-02)
-    * [Challenge Chapter 02](https://synrgy-challenge02-bcr.netlify.app/)
-* Chapter03
-    * Exercises
-        * [Pre Test](https://github.com/pockypoem/synrgy-challenges/tree/main/chapter03/quiz)
-        * [Latihan Soal](https://github.com/pockypoem/synrgy-challenges/tree/main/chapter03/latihanSoal)
-    * [Challenge Chapter 03](https://jeremyas-challenge03-binar.netlify.app/)
+JavaScript Koans is an interactive learning environment that uses failing tests to introduce students to aspects of JavaScript in a logical sequence. 
+
+The inspiration for this project comes from the Edgecase Ruby Koans and the book 'Javascript: The Good Parts'.
+
+Open the file jskoans.htm in your favourite browser and make the tests pass.
+
+The koans use the [Qunit](http://qunitjs.com/) test syntax and test runner. 
+
+Get started with Ryan Anklam's [Learn JavaScript completely On the Cloud With the JavaScript Koans and Cloud9 IDE](http://blog.bittersweetryan.com/2011/08/learn-some-javascript-completely-on.html)
