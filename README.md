@@ -8,4 +8,5 @@
     * Exercises
         * [Pre Test](https://github.com/pockypoem/synrgy-challenges/tree/main/chapter03/quiz)
         * [Latihan Soal](https://github.com/pockypoem/synrgy-challenges/tree/main/chapter03/latihanSoal)
+    * [My JS-Koans Answer](https://github.com/pockypoem/synrgy-challenges/tree/js-koans) --[Credit for Author](https://github.com/liammclennan/JavaScript-Koans)
     * [Challenge Chapter 03](https://jeremyas-challenge03-binar.netlify.app/)
