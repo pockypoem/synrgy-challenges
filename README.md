@@ -2,7 +2,7 @@
 
 * [Chapter01](https://synrgy-challenge01-bcr.netlify.app/)
 * Chapter 02
-    * [Fun Challenge Frontend Mentor](https://github.com/pockypoem/synrgy-challenges/tree/main/funchallenge-02)
+    * [Fun Challenge Frontend Mentor](https://github.com/pockypoem/synrgy-challenges/tree/chapters/funchallenge-02)
     * [Challenge Chapter 02](https://synrgy-challenge02-bcr.netlify.app/)
 * Chapter03
     * Exercises
