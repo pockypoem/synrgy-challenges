@@ -5,6 +5,12 @@ class App {
         this.pickupTime = document.getElementById("pickupTime");
         this.jumlahPenumpang = document.getElementById("passengers");
         this.tombolCariMobil = document.querySelector('button[type="submit"]');
+
+        this.jumlahPenumpang.addEventListener("input", () => {
+            if (parseInt(this.jumlahPenumpang.value) > 8) {
+                this.jumlahPenumpang.value = "8";
+            }
+        });
     }
 
     init() {
