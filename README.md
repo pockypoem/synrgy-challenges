@@ -1,12 +1,39 @@
-# SYNRGY BATCH 6 CHALLENGES
+# Binar: Challenge 04
 
-* [Chapter01](https://synrgy-challenge01-bcr.netlify.app/)
-* Chapter 02
-    * [Fun Challenge Frontend Mentor](https://github.com/pockypoem/synrgy-challenges/tree/chapters/funchallenge-02)
-    * [Challenge Chapter 02](https://synrgy-challenge02-bcr.netlify.app/)
-* Chapter03
-    * Exercises
-        * [Pre Test](https://github.com/pockypoem/synrgy-challenges/tree/main/chapter03/quiz)
-        * [Latihan Soal](https://github.com/pockypoem/synrgy-challenges/tree/main/chapter03/latihanSoal)
-    * [My JS-Koans' Answer](https://github.com/pockypoem/synrgy-challenges/tree/js-koans) --[Credit for Author](https://github.com/liammclennan/JavaScript-Koans)
-    * [Challenge Chapter 03](https://jeremyas-challenge03-binar.netlify.app/)
+- Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
+- Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
+
+# `Binar` class
+
+Class ini berisi 1 static method saja, yang berfungsi untuk mengambil data mobil dari internet.
+
+```typescript
+interface Car {
+  id: string;
+  plate: string;
+  manufacture: string;
+  model: string;
+  image: string;
+  rentPerDay: number;
+  capacity: number;
+  description: string;
+  transmission: string;
+  available: boolean;
+  type: string;
+  year: string;
+  options: Array<string>;
+  specs: Array<string>;
+}
+
+interface Binar {
+  listCars(filterer: (car: Car) => boolean): Array<Car>
+}
+```
+
+Method `listCars` ini akan menerima fungsi yang mana harus mengembalikan `boolean` sebagai nilainya. 
+Fungsi ini akan dijalankan untuk masing-masing item di dalam list of cars, yang mana jika nilainya `true`,
+maka akan ditampilkan di dalam list tersebut.
+
+# Tips
+
+Just, hack it bro!
