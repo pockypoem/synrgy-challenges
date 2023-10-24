@@ -131,6 +131,44 @@
 
             <!-- END OF HERO SECTION -->
 
+
+            <div class="container">
+                <section class="responsive-form" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+                    <form action="" class="realSearchForm" id="carSearchForm" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+                        <div class="form-group" style="flex: 1; max-width: 320px;">
+                            <label for="driverType">Tipe Driver</label>
+                            <select class="form-control" id="driverType" required>
+                                <option value="withDriver">Dengan Sopir</option>
+                                <option value="withoutDriver">Tanpa Sopir (Lepas Kunci)</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="flex: 1; max-width: 320px;">
+                            <label for="date">Tanggal</label>
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+                        <div class="form-group" style="flex: 1; max-width: 320px;">
+                            <label for="pickupTime">Waktu Jemput / Ambil</label>
+                            <select class="form-control" id="pickupTime" required>
+                                <option value="08:00">08.00 WIB</option>
+                                <option value="09:00">09.00 WIB</option>
+                                <option value="10:00">10.00 WIB</option>
+                                <option value="11:00">11.00 WIB</option>
+                                <option value="12:00">12.00 WIB</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="flex: 1; max-width: 320px;">
+                            <label for="passengers">Jumlah Penumpang</label>
+                            <input type="number" class="form-control" id="passengers" min="1" max="10" required>
+                        </div>
+                        <button type="submit" class="btn btn-green mt-3 ms-3" style="height: 40px; width: 100px;">Cari Mobil</button>
+                    </form>
+                </section>
+            </div>
+            
+            
+            
+
+
         </article>
 
 
@@ -138,7 +176,7 @@
 
     <!-- END OF MAIN -->
 
-    <br><br><br><br>
+    
 
 
     <!-- FOOTER -->
@@ -188,6 +226,7 @@
 
     <!-- script -->
     <script src="scripts/script.js"></script>
+    <script src="scripts/main.js"></script>
 
     <!-- Bootstrap Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
@@ -195,7 +234,6 @@
     <!-- Owl Carousel -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
-
 
 
 </body>
