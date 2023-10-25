@@ -28,10 +28,9 @@ class App {
     }
 
     resetForm() {
-        this.formElements.tipeDriver.value = '';
-        this.formElements.tanggal.value = '';
-        this.formElements.pickupTime.value = '';
-        this.formElements.jumlahPenumpang.value = '';
+        for (const key in this.formElements) {
+            this.formElements[key].value = '';
+        }
     }
 
     validateForm() {
