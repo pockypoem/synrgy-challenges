@@ -135,30 +135,37 @@
             <div class="container">
                 <section class="responsive-form" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
                     <form action="" class="realSearchForm" id="carSearchForm" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-                        <div class="form-group" style="flex: 1; max-width: 320px;">
+                        <div class="form-group" style="flex: 1;">
                             <label for="driverType">Tipe Driver</label>
-                            <select class="form-control" id="driverType" required>
-                                <option value="withDriver">Dengan Sopir</option>
-                                <option value="withoutDriver">Tanpa Sopir (Lepas Kunci)</option>
-                            </select>
+                            <div class="selectDriver-with-icon mt-2">
+                                <select class="form-control" id="driverType" required>
+                                    <option value="withDriver">Dengan Sopir</option>
+                                    <option value="withoutDriver">Tanpa Sopir (Lepas Kunci)</option>
+                                </select>
+                            </div>
                         </div>
+                                             
                         <div class="form-group" style="flex: 1; max-width: 320px;">
                             <label for="date">Tanggal</label>
-                            <input type="date" class="form-control" id="date" required>
+                            <input type="date" class="form-control mt-2" id="date" required>
                         </div>
                         <div class="form-group" style="flex: 1; max-width: 320px;">
                             <label for="pickupTime">Waktu Jemput / Ambil</label>
-                            <select class="form-control" id="pickupTime" required>
-                                <option value="08:00">08.00 WIB</option>
-                                <option value="09:00">09.00 WIB</option>
-                                <option value="10:00">10.00 WIB</option>
-                                <option value="11:00">11.00 WIB</option>
-                                <option value="12:00">12.00 WIB</option>
-                            </select>
-                        </div>
+                            <div class="select-with-icon mt-2">
+                                <select class="form-control" id="pickupTime" required>
+                                    <option value="08:00">08.00 WIB</option>
+                                    <option value="09:00">09.00 WIB</option>
+                                    <option value="10:00">10.00 WIB</option>
+                                    <option value="11:00">11.00 WIB</option>
+                                    <option value="12:00">12.00 WIB</option>
+                                </select>
+                            </div>
+                        </div>      
                         <div class="form-group" style="flex: 1; max-width: 320px;">
                             <label for="passengers">Jumlah Penumpang</label>
-                            <input type="number" class="form-control" id="passengers" min="1" max="10" required>
+                            <div class="inputPassengers-with-icon mt-2">
+                                <input type="number" class="form-control" id="passengers" min="1" max="10" required>
+                            </div>
                         </div>
                         <button type="submit" id="searchButton" class="btn btn-green mt-3 ms-3" style="height: 40px; width: 100px;" disabled >Cari Mobil</button>
                     </form>

@@ -1092,9 +1092,74 @@ img.imagehero-style {
     }
 }
 
+/* Tipe Driver Icon style */
+
+.selectDriver-with-icon {
+    position: relative;
+    display: inline-block;
+    width: 240px;
+}
+
+.selectDriver-with-icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 8px; /* Adjust the right spacing as needed */
+    transform: translateY(-50%);
+    width: 20px; /* Set the width of the icon */
+    height: 20px; /* Set the height of the icon */
+    background: url('https://i.ibb.co/CvtdG51/fi-chevron-down.png') no-repeat; /* Replace 'your-icon.png' with your icon's image path */
+    background-size: cover;
+    pointer-events: none;
+}
 
 
 
+
+
+/* Time Pickup Icon Style */
+
+.select-with-icon {
+    position: relative;
+}
+
+.select-with-icon select {
+    padding-right: 30px; 
+}
+
+.select-with-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px; 
+    background: url("https://i.ibb.co/NKzmXk9/fi-clock.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* input Passengers icon style */
+.inputPassengers-with-icon {
+    position: relative;
+}
+
+.inputPassengers-with-icon input {
+    padding-right: 30px; 
+}
+
+.inputPassengers-with-icon::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 20px; 
+    background: url("https://i.ibb.co/wNxCLNp/icon-input-penumpang.png") no-repeat;
+    background-size: 100% 100%;
+}
 
 
 
