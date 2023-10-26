@@ -65,7 +65,7 @@ class Car extends Component {
                         <div class="col-md-4 mb-3">
                             <div class="card">
                                 <div class="card-body">
-                                    <img class="card-img-top" src="${imageURL}" alt="Card image cap" style="height: 270px; width: 100%;">
+                                    <img class="card-img-top" src="${imageURL}" alt="Card image cap" style="height: 270px; width: 100%; object-fit: cover;">
                                     <div class="mt-3">
                                         <h5 class="card-title">${carType}</h5>
                                         <h3><b>${carPriceRent} /hari</b></h3>

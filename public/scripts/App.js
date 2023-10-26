@@ -27,11 +27,11 @@ class App {
         this.tombolCariMobil.addEventListener('click', this.handleFormSubmit.bind(this));
     }
 
-    resetForm() {
-        for (const key in this.formElements) {
-            this.formElements[key].value = '';
-        }
-    }
+    // resetForm() {
+    //     for (const key in this.formElements) {
+    //         this.formElements[key].value = '';
+    //     }
+    // }
 
     validateForm() {
         const selectedTipeDriver = this.formElements.tipeDriver.value;
@@ -80,7 +80,7 @@ class App {
 
         this.carComponent.render(convertedData, inputTanggal, waktuJemput, jumlahPenumpang);
 
-        this.resetForm();
+        // this.resetForm();
         this.tombolCariMobil.setAttribute("disabled", "disabled");
     }
 }

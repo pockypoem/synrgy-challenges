@@ -132,7 +132,7 @@ body.active { overflow-y: hidden; }
     left: 0;
     width: 100%;
     background: var(--default);
-    z-index: 4;
+    z-index: 44;
     padding-block: 24px;
 }
 
@@ -272,11 +272,13 @@ button.btn-hero {
     justify-content: right;
     text-align: right;
     align-items: right;
+    position: relative;
 }
 
 .imagehero-section img {
     width: 280px;
     right: 0;
+    z-index: 1;
 }
 
 .image-desktop-style {
@@ -1055,6 +1057,8 @@ img.imagehero-style {
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
+    position: relative;
+    z-index: 10;
 }
 
 
